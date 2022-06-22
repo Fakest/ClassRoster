@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a26565ab-c3bf-4702-84e2-9a8e649b9291" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sg/classroster/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sg/classroster/controller/ClassRosterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sg/classroster/dao/ClassRosterDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sg/classroster/dao/ClassRosterDaoFileImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sg/classroster/dto/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sg/classroster/ui/ClassRosterView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sg/classroster/ui/UserIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sg/classroster/ui/UserIOConsoleImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sg/classroster/dao/ClassRosterDaoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sg/classroster/servicelayer/ServiceLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/roster.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/classroster/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sg/classroster/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/classroster/controller/ClassRosterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sg/classroster/controller/ClassRosterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/classroster/dao/ClassRosterDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sg/classroster/dao/ClassRosterDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/classroster/dao/ClassRosterDaoFileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sg/classroster/dao/ClassRosterDaoFileImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/classroster/ui/ClassRosterView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sg/classroster/ui/ClassRosterView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -50,6 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/harrybeggs/Documents/Projects/GitHub/ClassRoster",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -89,14 +85,56 @@
       <option name="presentableId" value="Default" />
       <updated>1655815762851</updated>
     </task>
+    <task id="LOCAL-00001" summary="Unfinished&#10;Need to complete dependency">
+      <created>1655898489725</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655898489725</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Unfinished&#10;Need to complete dependency">
+      <created>1655898540433</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655898540433</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Unfinished&#10;Need to complete dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unfinished&#10;Need to complete dependency" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/sg/classroster/ui/ClassRosterView.java</url>
-          <line>20</line>
+          <line>25</line>
           <properties class="com.sg.classroster.ui.ClassRosterView" method="getNewStudentInfo">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

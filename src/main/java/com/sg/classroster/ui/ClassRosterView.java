@@ -6,7 +6,12 @@ import java.util.List;
 
 public class ClassRosterView {
 
-    private UserIO io = new UserIOConsoleImpl();
+    private UserIO io;
+
+    public ClassRosterView(UserIO io) {
+        this.io = io;
+    }
+
     public int PrintMenuAndGetSelection(){
         io.print("Menu");
         io.print("1. List Student IDs");
